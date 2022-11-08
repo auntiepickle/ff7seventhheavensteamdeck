@@ -1,0 +1,67 @@
+Arch: win64
+Creation_Date: '2022-03-05 12:15:48.176125'
+Custom_Path: false
+DLL_Overrides: {}
+DXVK: dxvk-1.9.4
+Environment: Gaming
+Environment_Variables: {}
+Installed_Dependencies:
+- dotnet40
+- dotnet48
+- d3dx9
+- msls31
+- riched20
+- allfonts
+- d3dcompiler_43
+- d3dcompiler_47
+- vcredist2019
+Latest_Executables: []
+NVAPI: dxvk-nvapi-v0.5.2
+Name: 7th Heaven
+Parameters:
+    aco_compiler: false
+    custom_dpi: 96
+    discrete_gpu: true
+    dxvk: true
+    dxvk_hud: false
+    dxvk_nvapi: false
+    fixme_logs: false
+    fsr: false
+    fsr_level: 5
+    fullscreen_capture: false
+    gamemode: false
+    gamescope: false
+    gamescope_borderless: false
+    gamescope_fps: 0
+    gamescope_fps_no_focus: 0
+    gamescope_fullscreen: true
+    gamescope_game_height: 0
+    gamescope_game_width: 0
+    gamescope_scaling: false
+    gamescope_window_height: 0
+    gamescope_window_width: 0
+    pulseaudio_latency: true
+    sync: esync
+    take_focus: false
+    use_runtime: true
+    virtual_desktop: false
+    virtual_desktop_res: 1280x720
+    vkd3d: false
+Path: 7th-Heaven
+Runner: vaniglia-6.23
+State: 9
+Uninstallers:
+    allfonts: false
+    d3dcompiler_43: false
+    d3dcompiler_47: false
+    d3dx9: false
+    dotnet40: Microsoft .NET Framework 4 Extended
+    dotnet48: true
+    msls31: false
+    riched20: false
+    vcredist2019: true
+Update_Date: '2022-03-05 13:18:20.710904'
+VKD3D: vkd3d-proton-2.5
+Versioning: true
+Windows: win10
+WorkingDir: ''
