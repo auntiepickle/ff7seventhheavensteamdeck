@@ -71,11 +71,11 @@ Using `Flatseal`, we can modify the permissions of any `flatpak` installed on ou
 
 - Select **Bottles**
 
-- On the left hand side, you will see a list of all flatpaks installed on your system. Scroll through that list until you find `Bottles` and select it.
+	- On the left hand side, you will see a list of all flatpaks installed on your system. Scroll through that list until you find `Bottles` and select it.
 
 - Go to **Filesystem**
 
-- Scroll through the right-hand list of options until you see the `Filesystem` category.
+	- Scroll through the right-hand list of options until you see the `Filesystem` category.
 
 This is where we will configure which files and folders `Bottles` has access to.
 
@@ -83,17 +83,17 @@ This is where we will configure which files and folders `Bottles` has access to.
 
 - Expose the following locations:
 
-- The location where you downloaded/stored all the config files:
+	- The location where you downloaded/stored all the config files:
 
--  `~/Downloads`
+		-  `~/Downloads`
 
-- Your Steamapps or Final Fantasy VII install directory:
+	- Your Steamapps or Final Fantasy VII install directory:
 
--  **Internal memory**: `~/.local/share/Steam/steamapps`
+		-  **Internal memory**: `~/.local/share/Steam/steamapps`
 
-- or
+			- or
 
-- SD card: `/run/media/mmcblk0p1/steamapps/`
+		- SD card: `/run/media/mmcblk0p1/steamapps/`
 
   
 
@@ -143,7 +143,7 @@ Name it whatever you want but I like "FF7SeventhHeaven"
 
 - Recipe: Custom Recipe
 
-- Point it at your custom recipe file we downloaded earlier ([ff7heavensd.yml](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml))
+	- Point it at your custom recipe file we downloaded earlier ([ff7heavensd.yml](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml))
 
   
 
@@ -304,7 +304,7 @@ The next step of the installer will ask you about where FF7 is located.
 
 - FF7 Exe: My Computer > FF7DISC1 > FFVII_STEAM > ff7_en.exe
 
--  *This will throw an error and make a file called ff7.exe for you and point to that which is correct*
+	-  *This will throw an error and make a file called ff7.exe for you and point to that which is correct*
 
 - Movies: My Computer > FF7DISC1 > FFVII_STEAM > data > movies
 
@@ -349,7 +349,7 @@ Now to test out some mods...
 
 - Launch 7th Heaven
 
-- nothing should happen as it will silently crash (this was the only way I could get the runner we need to work working, odd workaround I know...)
+	- nothing should happen as it will silently crash (this was the only way I could get the runner we need to work working, odd workaround I know...)
 
 - Change the runner to be "Vaniglia-6.23" runner
 
@@ -374,19 +374,19 @@ I also suggest modifying the Game Driver now so you can get the native experienc
 
 - Settings > Game Driver > Graphics
 
-- Resolution: 1920x1080 (or whatever it shows)
+	- Resolution: 1920x1080 (or whatever it shows)
 
-- Graphics API: DirectX 11
+	- Graphics API: DirectX 11
 
-- Window Mode: Borderless
+	- Window Mode: Borderless
 
-- Aspect Ratio: 16:9
+	- Aspect Ratio: 16:9
 
 - Advanced
 
-- Show Driver Version: Off
+	- Show Driver Version: Off
 
-- Show Graphics API: Off
+	- Show Graphics API: Off
 
 - Hit Save
 
@@ -400,11 +400,11 @@ With all that done, we can try to run FF7 with mods by
 
 - Reboot `Bottles`
 
-- (I do this just to be safe since sometimes it doesnt always pick up the config changes)
+	- (I do this just to be safe since sometimes it doesnt always pick up the config changes)
 
 - Launch 7th Heaven
 
-- You'll likely notice black UI, thats why we turn this off and a necessary step to repeat as you config stuff and then try to play
+	- You'll likely notice black UI, thats why we turn this off and a necessary step to repeat as you config stuff and then try to play
 
 - Hit Play
 
@@ -429,7 +429,7 @@ Whenever you want to configure your mods toggles "Improve Direct3D 9/10/11 Compa
 
 - Hit Play
 
--  *(If you don't see the black UI, I found I usually get a subsequent crash which can easily be solved by rebooting `Bottles`)*
+	-  *(If you don't see the black UI, I found I usually get a subsequent crash which can easily be solved by rebooting `Bottles`)*
 
   
 
