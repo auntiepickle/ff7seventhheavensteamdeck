@@ -103,7 +103,7 @@ TODO: screenshot of what it looks like....
 
 ### Getting the right Runners and DLL Components
 
-There are a bunch of [known issues with the latest versions of proton and 7th Heaven](https://github.com/tsunamods-codes/7th-Heaven/issues/19), hopefully this gets fixed in the future but because there are a host of issues we need very a specific configuration to get this working.
+There are a bunch of [known issues with the latest versions of proton and 7th Heaven](https://github.com/tsunamods-codes/7th-Heaven/issues/19), hopefully this gets fixed in the future but because there are a host of issues and we need a specific configuration to get this working.
 
   
 
