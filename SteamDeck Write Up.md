@@ -3,6 +3,8 @@
  
  # Final Fantasy Seven: 7th Heaven (Steam Deck Install Guide)
  This guide serves as a walkthrough on how you can get the [7th Heaven mod](https://7thheaven.rocks/) for Final Fantasy 7 up and running on the [Steam Deck](https://store.steampowered.com/steamdeck). 
+
+Video Proof: [enter link description here](https://youtu.be/quRb4NeWTGs)
  
  *Everything provided here is as is.*
  ## Requirements
