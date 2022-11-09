@@ -1,9 +1,9 @@
+# Final Fantasy Seven: 7th Heaven (Steam Deck Install Guide)
 
 ![7th Heaven Logo](https://i.imgur.com/Dbx8dcd.png)
 
 ![Steam Deck Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Steam_Deck_logo_%28pink_orb%29.svg/1200px-Steam_Deck_logo_%28pink_orb%29.svg.png)
 
-# Final Fantasy Seven: 7th Heaven (Steam Deck Install Guide)
 
 This guide serves as a walkthrough on how you can get the [7th Heaven mod](https://7thheaven.rocks/) for Final Fantasy 7 up and running on the [Steam Deck](https://store.steampowered.com/steamdeck).
 
