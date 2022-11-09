@@ -263,9 +263,9 @@ printf 'FF7DISC1' > ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7Se
 
 7th Heaven stores some mod files in two different directories we will want to create ahead of time.
 
-  
-
+```
 mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/FFVII_STEAM_FOLDER/mods/{7thHeaven,textures}
+```
 
 #### Adding FFNx manually
 
