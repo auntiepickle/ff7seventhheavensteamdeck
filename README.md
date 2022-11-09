@@ -179,9 +179,9 @@ TODO: screenshot
 
 *There is an issue where the UI renders black which will become a common theme but we'll solve it later*
 
-### Adding some folders and files
+### Adding some files and folders
 
-The next step is to add some folders and files to allow 7th Heaven to work properly when we launch it next.
+The next step is to add some files and folders to allow 7th Heaven to work properly when we launch it next.
 
 I will include each step below for completeness but, if you're like me and want a simply copy/paste. Here is a combined version of all the scripts below (Don't use this or modify it if you diverged from the file paths I mention above)
 
@@ -218,11 +218,7 @@ Depending on where you've installed FFVII, the following command will differ....
   
 
 ```
-
 ln -s ~/.local/share/Steam/steamapps/common/FINAL\ FANTASY\ VII ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/FFVII_STEAM_FOLDER
-
-  
-
 ```
 
   
@@ -232,11 +228,7 @@ Otherwise, **if you've installed Final Fantasy VII to an external storage (in th
   
 
 ```
-
 ln -s /run/media/mmcblk0p1/steamapps/common/FINAL\ FANTASY\ VII ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/FFVII_STEAM_FOLDER
-
-  
-
 ```
 
   
@@ -252,9 +244,7 @@ Next we need to add a few files and folders to the 7th Heaven Folder to complete
   
 
 ```
-
 printf 'FF7DISC1' > ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/.windows-label
-
 ```
 
 *This step adds the label "FF7DISC1" to your C Drive which avoids the issues where it looks for a disc and cannot find it.*
@@ -274,13 +264,9 @@ This step is necessary because FFNx has issues getting its first download in my 
   
 
 ```
-
 cp -r ~/Downloads/ff7seventhheavensteamdeck-main/FF7SeventhHeavenSteamDeckResources/FFNx-FF7_1998-v1.14.0.0/* ~/.local/share/Steam/steamapps/common/FINAL\ FANTASY\ VII
-
 mkdir ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/Resources/Game\ Driver/
-
 cp -r ~/Downloads/ff7seventhheavensteamdeck-main/FF7SeventhHeavenSteamDeckResources/FFNx-FF7_1998-v1.14.0.0/* ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/Resources/Game\ Driver/
-
 ```
 
 Now it's show time and we can config 7th Heaven!
