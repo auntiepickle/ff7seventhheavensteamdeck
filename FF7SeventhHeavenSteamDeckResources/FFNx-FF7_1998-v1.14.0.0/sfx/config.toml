@@ -1,0 +1,38 @@
+# FFNx Audio Engine config file - SFX layer
+
+### HOW TO: ###################################################################
+# Sections may be commented by default with an initial # character.
+# Remove the initial # character to set the entire sections block and its flags
+# -----------------------------------------------------------------------------
+# Syntax:
+# [ID]
+# flag = value
+# another_flag = value
+###############################################################################
+
+### SUPPORTED FLAGS: ##########################################################
+# shuffle: Shuffle an SFX ID with one of the given IDs in the array. IDs MUST
+# be numbers ONLY and MUST NOT contain any special character like - or _.
+# This flag MUST NOT be used in pair with 'sequential'.
+# -----------------------------------------------------------------------------
+# sequential: Sequentially playback an SFX ID with the ones provided in the
+# array. IDs MUST be numbers ONLY and MUST NOT contain any special character
+# like - or _. This flag MUST NOT be used in pair with 'shuffle'.
+# -----------------------------------------------------------------------------
+# loop: Enable loop for the requested SFX ID
+# -----------------------------------------------------------------------------
+# skip: Enable this flag to skip playing the SFX ID and have silence instead.
+# PLEASE NOTE: this flag will "fake a match" on the engine, to ensure silent
+# playback so it will not be a "skip" in the sense of moving on to the
+# next match.
+###############################################################################
+
+# This entry will shuffle the SFX ID 1 ( menu cursor ) with the ID 2, 3 or 4.
+# Everytime the game engine will try to playback 1, one of the entries in the
+# array will be picked randomly.
+# -----------------------------------------------------------------------------
+#[1]
+#shuffle = [ 2, 3, 4 ]
+#sequential = [ 2, 3, 4 ]
+#loop = true
+#skip = false

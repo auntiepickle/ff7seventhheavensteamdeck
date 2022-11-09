@@ -1,0 +1,88 @@
+# FFNx Vibration Engine config file - FF8 World module
+
+### HOW TO: ###################################################################
+# Sections may be commented by default with an initial # character.
+# Remove the initial # character to set the entire sections block and its flags
+# -----------------------------------------------------------------------------
+# Syntax:
+# [ID]
+# flag = value
+# another_flag = value
+###############################################################################
+
+### SUPPORTED FLAGS: ##########################################################
+# left_motor: An array of arrays, where each tuple MUST contain the relative
+# values. This vibration values will impact the LEFT motor of the gamepad.
+# The first value of the tuple is the motor force, the second value is the
+# number of frames to repeat this force.
+# -----------------------------------------------------------------------------
+# right_motor: An array of arrays, where each tuple MUST contain the relative
+# values. This vibration values will impact the RIGHT motor of the gamepad.
+# The first value of the tuple is the motor force, the second value is the
+# number of frames to repeat this force.
+###############################################################################
+
+# These entries will define LEFT and RIGHT motor forces for a set of
+# scenes setX.
+# setX: A scene ID where X is set between 0 to 63.
+# -----------------------------------------------------------------------------
+
+[set0]
+left_motor = [
+	[0x38, 0],
+	[0x31, 0],
+	[0x30, 0],
+	[0x1C, 0],
+	[0x16, 0],
+	[0x11, 0],
+	[0x0D, 0],
+	[0x08, 0],
+	[0x04, 0]
+]
+right_motor = [
+]
+
+[set1]
+left_motor = [
+	[0x38, 0],
+	[0x31, 0],
+	[0x30, 0],
+	[0x1C, 0],
+	[0x16, 0],
+	[0x11, 0],
+	[0x0D, 0],
+	[0x08, 0],
+	[0x04, 0]
+]
+right_motor = [
+]
+
+[set2]
+left_motor = [
+	[0x38, 0],
+	[0x31, 0],
+	[0x30, 0],
+	[0x1C, 0],
+	[0x16, 0],
+	[0x11, 0],
+	[0x0D, 0],
+	[0x08, 0],
+	[0x04, 0]
+]
+right_motor = [
+]
+
+[set3]
+left_motor = [
+	[0x38, 0],
+	[0x31, 0],
+	[0x30, 0],
+	[0x1C, 0],
+	[0x16, 0],
+	[0x11, 0],
+	[0x0D, 0],
+	[0x08, 0],
+	[0x04, 0]
+]
+right_motor = [
+]

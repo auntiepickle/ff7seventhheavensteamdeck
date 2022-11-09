@@ -1,0 +1,34 @@
+# FFNx Audio Engine config file - Voice layer
+
+### HOW TO: ###################################################################
+# Sections may be commented by default with an initial # character.
+# Remove the initial # character to set the entire sections block and its flags
+# -----------------------------------------------------------------------------
+# Syntax:
+# [FIELDNAME/FILENAME]
+# flag = value
+# another_flag = value
+# -----------------------------------------------------------------------------
+# where:
+# - FIELDNAME: the current field name, for eg. 'md1stin'
+# - FILENAME: the filename as you have it in your own folder,
+#             for eg. '6' for 6.ogg
+###############################################################################
+
+### SUPPORTED FLAGS: ##########################################################
+# volume: Allow volume to be adjusted for a specific track.
+# -----------------------------------------------------------------------------
+# shuffle: Shuffle a voice track with any of the given one in the array. Each
+# item MUST be a string. This flag MUST NOT be used in pair with 'sequential'.
+# -----------------------------------------------------------------------------
+# sequential: Sequentially playback a voice track with the ones provided in the
+# array. Each item MUST be a string. This flag MUST NOT be used in pair with
+# 'shuffle'.
+###############################################################################
+
+# This entry will set the volume to 50%
+# -----------------------------------------------------------------------------
+#[md1stin/6]
+#volume = 50
+#shuffle = [ "foo", "bar" ]
+#sequential = [ "foo", "bar" ]
