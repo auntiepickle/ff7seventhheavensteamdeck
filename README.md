@@ -21,35 +21,35 @@ Go ahead and make sure you have downloaded/installed the following resources as 
 
 - A valid copy of Final Fantasy 7
 
-- [Installed from the Steam store](https://store.steampowered.com/app/39140/FINAL_FANTASY_VII/)
+	- [Installed from the Steam store](https://store.steampowered.com/app/39140/FINAL_FANTASY_VII/)
 
-- [Bottles](https://usebottles.com/)
+	- [Bottles](https://usebottles.com/)
 
 - Discover store > `Bottles`
 
-- Alternatively you can type this to install through flatpak
+	- Alternatively you can type this to install through flatpak
 
--  `flatpak install flathub com.usebottles.bottles`
+	-  `flatpak install flathub com.usebottles.bottles`
 
 - Flatseal
 
-- Discover Store > `FlatSeal`
+	- Discover Store > `FlatSeal`
 
-- Alternatively you can type this to install through flatpak
+	- Alternatively you can type this to install through flatpak
 
--  `flatpak install flathub com.github.tchx84.Flatseal`
+		-  `flatpak install flathub com.github.tchx84.Flatseal`
 
 - [Full ZIP](https://github.com/auntiepickle/ff7seventhheavensteamdeck/archive/refs/heads/main.zip) (or you can download the components manually)
 
-- [7th Heaven mod](https://github.com/tsunamods-codes/7th-Heaven)
+	- [7th Heaven mod](https://github.com/tsunamods-codes/7th-Heaven)
 
-- 7th Heaven GitHub > [Latest Release](https://github.com/tsunamods-codes/7th-Heaven/releases/latest)
+		- 7th Heaven GitHub > [Latest Release](https://github.com/tsunamods-codes/7th-Heaven/releases/latest)
 
-- [Custom 7th Heaven Recipe](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml)
+	- [Custom 7th Heaven Recipe](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml)
 
 - [FFNx Release](https://github.com/julianxhokaxhiu/FFNx/releases)
 
-- At the time of writing, I am [using v1.14](https://github.com/julianxhokaxhiu/FFNx/releases/tag/1.14.0)
+	- At the time of writing, I am [using v1.14](https://github.com/julianxhokaxhiu/FFNx/releases/tag/1.14.0)
 
 I personally extract the ZIP to my `~/Downloads` folder, which is how I replicated this process successfully many times so you can avoid a world of pain :)
 
