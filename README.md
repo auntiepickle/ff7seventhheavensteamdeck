@@ -4,7 +4,7 @@
  # Final Fantasy Seven: 7th Heaven (Steam Deck Install Guide)
  This guide serves as a walkthrough on how you can get the [7th Heaven mod](https://7thheaven.rocks/) for Final Fantasy 7 up and running on the [Steam Deck](https://store.steampowered.com/steamdeck). 
 
-Video Proof: [enter link description here](https://youtu.be/quRb4NeWTGs)
+ [Video Proof](https://youtu.be/quRb4NeWTGs)
  
  *Everything provided here is as is.*
  ## Requirements
@@ -21,7 +21,7 @@ Go ahead and make sure you have downloaded/installed the following resources as 
 	 - Discover Store > `FlatSeal`
 	 - Alternatively you can type this to install through flatpak
 		 - `flatpak install flathub com.github.tchx84.Flatseal`
- - Full ZIP (or you can download the components manually)
+ - [Full ZIP](https://github.com/auntiepickle/ff7seventhheavensteamdeck/archive/refs/heads/main.zip) (or you can download the components manually)
 	-  [7th Heaven mod](https://github.com/tsunamods-codes/7th-Heaven)
 		- 7th Heaven GitHub > [Latest Release](https://github.com/tsunamods-codes/7th-Heaven/releases/latest)
 	 - [Custom 7th Heaven Recipe](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml)
