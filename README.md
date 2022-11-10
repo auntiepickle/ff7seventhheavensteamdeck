@@ -11,7 +11,7 @@ This guide serves as a walkthrough on how you can get the [7th Heaven mod](https
 
 *Everything provided here is as is.*
 
-I am in no way affiliated with any of the included IP or resources. A lot of smart people brought us 7th Heaven and this is just meant to illustrate how to get it working for steam deck and snapshot a config that I know works end to end.
+I am not affiliated with any of the related IP. A lot of smart people brought us 7th Heaven and this is just meant to illustrate how to get it working for steam deck and snapshot a config that I know works end to end.
 
 ## Requirements
 
