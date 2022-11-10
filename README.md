@@ -442,7 +442,9 @@ To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
 			- Rename the shortcut to your liking e.g. "7th Heaven (FF7)"
 			- Remove the target and Start in fields
 			- Add the following to LAUNCH OPTIONS
-				- flatpak run --command=bottles-cli com.usebottles.bottles run -p '7th Heaven' -b 'FF7SeventhHeaven'
+  				```
+				flatpak run --command=bottles-cli com.usebottles.bottles run -p '7th Heaven' -b 'FF7SeventhHeaven'
+				```
 
 And that's it! Now you can hit play and you should see the 7th Heaven running from Steam and in Gaming mode 
 
