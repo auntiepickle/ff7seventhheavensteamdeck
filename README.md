@@ -224,7 +224,7 @@ ln -s /run/media/mmcblk0p1/steamapps/common/FINAL\ FANTASY\ VII ~/.var/app/com.u
 
   
 
-_To summarize, we are creating a symbolic link between our Final Fantasy VII Common directory and our bottle environment where we will run the executable. This way allows us to use our FF7 install.
+To summarize, we are creating a symbolic link between our Final Fantasy VII Common directory and our bottle environment where we will run the executable. This allows us to use our FF7 install folder.
 
   
 
@@ -232,7 +232,9 @@ Next we need to add a few files and folders to the 7th Heaven Folder to complete
 
 #### Adding a default drive label of `FF7DISC1` to our C Drive
 
-  
+Wine requires a .windows-label file to give the drive a permanent label.
+- add `.windows-label` to the root of a shared drive
+  - add `FF7DISC1` to the contents of `.windows-label`  
 
 ```
 printf 'FF7DISC1' > ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/.windows-label
@@ -242,7 +244,10 @@ printf 'FF7DISC1' > ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7Se
 
 #### Adding some folders for 7th Heaven
 
-7th Heaven stores some mod files in two different directories we will want to create ahead of time.
+7th Heaven stores some mod files in two different directories we will want to create ahead of time in the root folder of our install.
+- `mods/`
+  - `textures/`
+  - `7thHeaven/`
 
 ```
 mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/FFVII_STEAM_FOLDER/mods/{7thHeaven,textures}
@@ -251,6 +256,9 @@ mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven
 #### Adding FFNx manually
 
 This step is necessary because FFNx has issues getting its first download in my experience. I have gotten this to eventually download through the Bottle but it's not reliable and we will opt to just copy the files to stream line the configuration.
+- copy the contents of FFNx to:
+  - `FFVII` root folder
+  - New folder called `/Resources/Game Driver/` in 7th Heaven install
 
   
 
