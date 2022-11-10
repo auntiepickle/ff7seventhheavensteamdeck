@@ -110,7 +110,7 @@ There are a bunch of [known issues with the latest versions of proton and 7th He
 
 On the Bottles home page, hit the hamburger menu in the top right > Preferences > Runner
 
-  
+ ![Custom Runners](images/runners.png) 
 
 Make sure you install the following Runners:
 
@@ -131,8 +131,7 @@ Now install the following DLL Components:
 Now we need to make our own custom bottle where we can host the game with all our mods.
 
 To do this start by hitting the "+" button in the top left to make a new Bottle
-
-  
+![Custom Bottle](images/CustomRecipe.png)  
 
 Name it whatever you want but I like "FF7SeventhHeaven"
 
@@ -150,7 +149,7 @@ Name it whatever you want but I like "FF7SeventhHeaven"
 
 (This will take a bit to configure so go get a cup of coffee, browse reddit, take a bio break, w/e...)
 
-  
+![Creating Bottle](images/CreatingBottle.png)    
 
 Once it is done, go into the preferences tab of the newly created bottle and make sure the following options are set under System > Runner Components
 
@@ -158,7 +157,7 @@ Once it is done, go into the preferences tab of the newly created bottle and mak
 
 - XKD3D Version: vkd3d-proton-2.5
 
-  
+ ![Creating Bottle](images/RunnerComponents.png)  
 
 ### Installing 7th Heaven
 
@@ -166,9 +165,9 @@ Next we want to run the installer for 7th Heaven. To do this from within the sel
 
   
 
-TODO: screenshot
+![7th Heaven Installer](images/SelectInstaller.png)
 
-  
+  ![Default Installer](images/DefaultInstaller.png)
 
 - Follow the default steps and it should launch!
 
@@ -184,7 +183,7 @@ TODO: screenshot
 
 The next step is to add some files and folders to allow 7th Heaven to work properly when we launch it next.
 
-I will include each step below for completeness but, if you're like me and want a simply copy/paste. Here is a combined version of all the scripts below (Don't use this or modify it if you diverged from the file paths I mention above)
+I will include each step below for completeness but, if you're like me and want a simple copy/paste. Here is a combined version of all the scripts below (Don't use this or modify it if you diverged from the file paths I mention above)
 
 (There is also a [shell script](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/FF7SeventhHeavenSteamDeckResources/7thHeavenSDConfig.sh) which you can run if that's easier for you)
 
@@ -272,6 +271,8 @@ Now it's show time and we can config 7th Heaven!
 
 To avoid the black screen, before launching 7th Heaven,
 
+![Disable Direct 3D](images/DisableD3D.png)
+
 - Toggle the "Improve Direct 3D 9/10/11" setting
 
 - Launch 7th Heaven
@@ -280,7 +281,7 @@ To avoid the black screen, before launching 7th Heaven,
 
 The next step of the installer will ask you about where FF7 is located.
 
-  
+![File Config](images/7thHeavenFileConfig.png)  
 
 - FF7 Exe: My Computer > FF7DISC1 > FFVII_STEAM > ff7_en.exe
 
@@ -292,9 +293,11 @@ The next step of the installer will ask you about where FF7 is located.
 
 - Library: My Computer > FF7DISC1 > FFVII_STEAM > mods > 7thHeaven
 
-- Hit **Save** and then disable auto mount
+- Hit **Save** 
 
 Then modify the auto disk mount
+
+![Auto Mount Disable](images/automount.png)
 
 - Settings > Game Launcher > Options > **Do not auto mount Disk**
 
@@ -308,16 +311,18 @@ Launch the game
 
 At this point the game should config a bunch of things, launch, and display a red version of Eidos!
 
+ ![Configuring](images/configging.png) 
   
-  
+ ![Red EIDOS](images/redEidos.png)
 
 This means you have successfully enabled everything and can now move on to enabling some mods.
 
   
 
-Quit the game by hitting the stop button in Bottles or close in the dialog
+Quit the game by hitting the stop button in Bottles exiting the windows
 
   
+![Stop Button](images/StopButton.png)
 
 Now to test out some mods...
 
@@ -337,7 +342,6 @@ Now to test out some mods...
 
 - Reboot `Bottles`
 
-  
 
 Now we can configure and download some mods!
 
@@ -390,7 +394,7 @@ With all that done, we can try to run FF7 with mods by
 
 If things went to plan you should see FF7 loaded with your selected mods
 
-  
+![Modded FF7](images/moddedFF7.png)
   
 
 Whenever you want to configure your mods toggles "Improve Direct3D 9/10/11 Compatibility":
@@ -424,6 +428,7 @@ The last step in our journey is to add bottles to our known steam apps. This way
 
 
 To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
+![Add Program](images/addexepath.png)
 
 - Within the "Programs" section of our bottles hit the "+" button to add a manual reference to 7th Heaven
   - If you followed the default config, the path should be:
@@ -431,6 +436,7 @@ To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
 	/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/7th\ Heaven.exe
 	```
 - A new entry will be added to your Programs list and we can now simply add a new game to steam
+![Add to Steam](images/CustomSteam.png)
 
 - Hit "Add a Game" in the bottom left corner of Steam
 - Add a Non-Steam Game
