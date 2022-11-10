@@ -24,9 +24,9 @@ Go ahead and make sure you have downloaded/installed the following resources as 
 
 	- [Installed from the Steam store](https://store.steampowered.com/app/39140/FINAL_FANTASY_VII/)
 
-	- [Bottles](https://usebottles.com/)
+- [Bottles](https://usebottles.com/)
 
-- Discover store > `Bottles`
+  - Discover store > `Bottles`
 
 	- Alternatively you can type this to install through flatpak
 
@@ -98,8 +98,7 @@ This is where we will configure which files and folders `Bottles` has access to.
 
   
 
-TODO: screenshot of what it looks like....
-
+![Flat Seal](images/flatseal.png)
   
 
 ### Getting the right Runners and DLL Components
@@ -183,7 +182,7 @@ Next we want to run the installer for 7th Heaven. To do this from within the sel
 
 The next step is to add some files and folders to allow 7th Heaven to work properly when we launch it next.
 
-I will include each step below for completeness but, if you're like me and want a simple copy/paste. Here is a combined version of all the scripts below (Don't use this or modify it if you diverged from the file paths I mention above)
+I will include each step below for completeness but, if you're like me and want a simple copy/paste. Here is a combined version of all the scripts below (modify it for your install paths if they differ)
 
 (There is also a [shell script](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/FF7SeventhHeavenSteamDeckResources/7thHeavenSDConfig.sh) which you can run if that's easier for you)
 
@@ -226,7 +225,7 @@ ln -s /run/media/mmcblk0p1/steamapps/common/FINAL\ FANTASY\ VII ~/.var/app/com.u
 
   
 
-_To summarize, we are creating a symbolic link between our Final Fantasy VII Common directory and our bottle environment where we will run the executable. . Setting it up this way will allow us to make use of the default folder configuration of the installer, and you will simply be able to press "next" at this step of the install._
+_To summarize, we are creating a symbolic link between our Final Fantasy VII Common directory and our bottle environment where we will run the executable. This way allows us to use our FF7 install.
 
   
 
@@ -285,7 +284,7 @@ The next step of the installer will ask you about where FF7 is located.
 
 - FF7 Exe: My Computer > FF7DISC1 > FFVII_STEAM > ff7_en.exe
 
-	-  *This will throw an error and make a file called ff7.exe for you and point to that which is correct*
+	-  *This will throw an error and make a file called ff7.exe for you and point to it, which is correct*
 
 - Movies: My Computer > FF7DISC1 > FFVII_STEAM > data > movies
 
@@ -319,7 +318,7 @@ This means you have successfully enabled everything and can now move on to enabl
 
   
 
-Quit the game by hitting the stop button in Bottles exiting the windows
+Quit the game by hitting the stop button in Bottles, or exiting out of the windows.
 
   
 ![Stop Button](images/StopButton.png)
@@ -433,7 +432,7 @@ To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
 - Within the "Programs" section of our bottles hit the "+" button to add a manual reference to 7th Heaven
   - If you followed the default config, the path should be:
 	```
-	/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/7th\ Heaven.exe
+	/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program Files/7th Heaven/7th Heaven.exe
 	```
 - A new entry will be added to your Programs list and we can now simply add a new game to steam
 ![Add to Steam](images/CustomSteam.png)
@@ -452,7 +451,12 @@ To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
 				flatpak run --command=bottles-cli com.usebottles.bottles run -p '7th Heaven' -b 'FF7SeventhHeaven'
 				```
 
-And that's it! Now you can hit play and you should see the 7th Heaven running from Steam and in Gaming mode 
+And that's it! Now you can hit play and you should see 7th Heaven running from Steam and in Gaming mode
+
+Alternatively, if you plan to modify the mods inside of gaming mode, you can just add bottles as an entry like so:
+```
+flatpak run com.usebottles.bottles
+```
 
 ## Looking for help
 
