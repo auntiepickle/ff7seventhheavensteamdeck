@@ -417,14 +417,21 @@ And that's it! Now you can add Bottles to steam and spend the rest of your time 
 
   
 
-### Adding Bottles to steam (currently broken, looking for help getting this to work)
+### Adding Bottles to steam 
 
-~~ The last step in our journey is to add bottles to our known steam apps. This way you can run FF7 from Gaming mode. 
+The last step in our journey is to add bottles to our known steam apps. This way you can run FF7 from Gaming mode. 
 
-  
 
-To add Bottles, you simply add it like any other app...
 
+To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
+
+- Within the "Programs" section of our bottles hit the "+" button to add a manual reference to 7th Heaven
+  - If you followed the default config, the path should be:
+    ```
+		/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/7th\ Heaven.exe
+	```
+- A new entry will be added to your Programs list and we can now simply add a new game to steam
+- 
 - Hit "Add a Game" in the bottom left corner of Steam
 
 - Add a Non-Steam Game
@@ -432,35 +439,24 @@ To add Bottles, you simply add it like any other app...
 - Select Bottles from the add a game list
 
 - "Add Selected Programs"
+- Now modify the Bottles entry
+	- Right click Bottles in Steam
+		- Properties
+			- Rename the shortcut to your liking e.g. "7th Heaven (FF7)"
+			- Remove the target and Start in fields
+			- Add the following to LAUNCH OPTIONS
+				- flatpak run --command=bottles-cli com.usebottles.bottles run -p '7th Heaven' -b 'FF7SeventhHeaven'
 
-  
-
-Launch Bottles like any other application from steam
-
-  
-
-And thats it! ~~
-
-  
-
-**Finished**!!!
-
-  
+And that's it! Now you can hit play and you should see the 7th Heaven running from Steam and in Gaming mode 
 
 ## Looking for help
 
-I have heard rumor that you can get Bottles to load custom bottle configs from Steam but I have failed at any attempts to do so. If someone finds a way to launch the custom FF7 Bottle that's the last thing I would consider we need to make this setup complete for now.
-
-  
-
 I would love any optimizations you figure out after following my guide. I don't claim for this to be perfect but I was able to consistently get 7th Heaven running from scratch by following the instructions in this guide.
-
-  
+ 
 
 Overall, I would say this process is really finicky but once I got everything up and running I didn't have anymore issues. I am hopeful with time many bug fixes can be applied in this space to make things a bit more smooth.
 
-  
-  
+I think we could automate the file and config process a bit more with some shell scripts and would be interested to collaborate with anyone who wants to make improvements in this space.
 
 ## Common Issues
 
