@@ -31,7 +31,7 @@ Go ahead and make sure you have downloaded/installed the following resources as 
 
 	-  `flatpak install flathub com.usebottles.bottles`
 
-- Flatseal
+- [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)
 
 	- Discover Store > `FlatSeal`
 
