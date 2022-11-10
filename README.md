@@ -417,9 +417,9 @@ And that's it! Now you can add Bottles to steam and spend the rest of your time 
 
   
 
-### Adding Bottles to steam
+### Adding Bottles to steam (currently broken, looking for help getting this to work)
 
-The last step in our journey is to add bottles to our known steam apps. This way you can run FF7 from Gaming mode.
+~~ The last step in our journey is to add bottles to our known steam apps. This way you can run FF7 from Gaming mode. 
 
   
 
@@ -439,7 +439,7 @@ Launch Bottles like any other application from steam
 
   
 
-And thats it!
+And thats it! ~~
 
   
 
