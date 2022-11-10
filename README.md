@@ -428,16 +428,13 @@ To add Bottles, we need to add the Seventh Heaven Program manually in our Bottle
 - Within the "Programs" section of our bottles hit the "+" button to add a manual reference to 7th Heaven
   - If you followed the default config, the path should be:
     ```
-		/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/7th\ Heaven.exe
+/home/deck/.var/app/com.usebottles.bottles/data/bottles/bottles/FF7SeventhHeaven/drive_c/Program\ Files/7th\ Heaven/7th\ Heaven.exe
 	```
 - A new entry will be added to your Programs list and we can now simply add a new game to steam
-- 
+
 - Hit "Add a Game" in the bottom left corner of Steam
-
 - Add a Non-Steam Game
-
 - Select Bottles from the add a game list
-
 - "Add Selected Programs"
 - Now modify the Bottles entry
 	- Right click Bottles in Steam
