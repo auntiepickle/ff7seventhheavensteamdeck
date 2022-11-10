@@ -11,13 +11,13 @@ This guide serves as a walkthrough on how you can get the [7th Heaven mod](https
 
 *Everything provided here is as is.*
 
-I am not affiliated with any of the related IP. A lot of smart people brought us 7th Heaven and this is just meant to illustrate how to get it working for steam deck and snapshot a config that I know works end to end.
+I am not affiliated with any of the related IP. A lot of smart people brought us 7th Heaven and this is just meant to illustrate how to get it working for the Steam Deck and snapshot a config that I know works end to end.
 
 ## Requirements
 
 This guide assumes that you have the Steam version of Final Fantasy 7. It might work for other versions but I am going to assume you have downloaded it through the Steam Store
 
-Go ahead and make sure you have downloaded/installed the following resources as we will need them later:
+Make sure you have downloaded/installed the following resources as we will need them later:
 
 - A valid copy of Final Fantasy 7
 
