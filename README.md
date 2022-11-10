@@ -395,7 +395,7 @@ If things went to plan you should see FF7 loaded with your selected mods
 ![Modded FF7](images/moddedFF7.png)
   
 
-Whenever you want to configure your mods toggles "Improve Direct3D 9/10/11 Compatibility":
+Whenever you want to configure your mods, toggle "Improve Direct3D 9/10/11 Compatibility":
 
 - Turn off "Improve Direct3D 9/10/11 Compatibility",
 
