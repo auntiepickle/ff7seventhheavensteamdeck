@@ -45,7 +45,7 @@ Make sure you have downloaded/installed the following resources as we will need 
 
 		- 7th Heaven GitHub > [Latest Release](https://github.com/tsunamods-codes/7th-Heaven/releases/latest)
 
-	- [Custom 7th Heaven Recipe](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/ff7heavensd.yml)
+	- [Custom 7th Heaven Recipe](https://github.com/auntiepickle/ff7seventhheavensteamdeck/blob/main/FF7SeventhHeavenSteamDeckResources/ff7heavensd.yml)
 
 - [FFNx Release](https://github.com/julianxhokaxhiu/FFNx/releases)
 
