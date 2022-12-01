@@ -149,11 +149,11 @@ Name it whatever you want but I like "FF7SeventhHeaven"
 
 ![Creating Bottle](images/CreatingBottle.png)    
 
-Once it is done, go into the preferences tab of the newly created bottle and make sure the following options are set under System > Runner Components
+Once it is done, go into the preferences tab of the newly created bottle and make sure the following options are set under Settings > Components 
 
-- DXVK Version: dxvk-1.9.4
+- DXVK : dxvk-1.9.4
 
-- XKD3D Version: vkd3d-proton-2.5
+- VKD3D Version: vkd3d-proton-2.5
 
  ![Creating Bottle](images/RunnerComponents.png)  
 
@@ -279,7 +279,7 @@ To avoid the black screen, before launching 7th Heaven,
 
 ![Disable Direct 3D](images/DisableD3D.png)
 
-- Toggle the "Improve Direct 3D 9/10/11" setting
+- Change the DXVK setting to: Disabled
 
 - Launch 7th Heaven
 
@@ -344,7 +344,7 @@ Now to test out some mods...
 
 - Change the runner to be "Vaniglia-6.23" runner
 
-- Ensure "Improve Direct3D 9/10/11 Compatibility" is **disabled**
+- Ensure "DXVK" is set to **disabled**
 
 - Reboot `Bottles`
 
