@@ -153,8 +153,6 @@ Once it is done, go into the preferences tab of the newly created bottle and mak
 
 - DXVK : dxvk-1.9.4
 
-- VKD3D Version: vkd3d-proton-2.5
-
  ![Creating Bottle](images/RunnerComponents.png)  
 
 ### Installing 7th Heaven
