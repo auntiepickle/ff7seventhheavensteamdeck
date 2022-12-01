@@ -401,9 +401,9 @@ If things went to plan you should see FF7 loaded with your selected mods
 ![Modded FF7](images/moddedFF7.png)
   
 
-Whenever you want to configure your mods, toggle "Improve Direct3D 9/10/11 Compatibility":
+Whenever you want to configure your mods, toggle D3D:
 
-- Turn off "Improve Direct3D 9/10/11 Compatibility",
+- Set DXVK to "Disabled",
 
 - Reboot 7th Heaven,
 
@@ -411,7 +411,7 @@ Whenever you want to configure your mods, toggle "Improve Direct3D 9/10/11 Compa
 
 - Quit 7th Heaven
 
-- Turn on "Improve Direct3D 9/10/11 Compatibility"
+- Set DXVK to "dxvk-1.9.4"
 
 - Restart 7th Heaven
 
