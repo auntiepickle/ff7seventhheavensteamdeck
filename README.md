@@ -120,7 +120,7 @@ Now install the following DLL Components:
 
 - DXVK: dxvk-1.9.4
 
-- VKd3d: vkd3d-proton-2.5
+- VKd3d: vkd3d-proton-2.5 (this is optional if you want to use DX12 but I don't document it)
 
   
 
